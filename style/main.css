@@ -1,0 +1,38 @@
+:root{
+    --turquoise: #40e0d0;
+    --thistle: #36263f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+body{
+    background-color: var(--thistle);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Logo {
+    margin-left: 5px;
+    color: var(--turquoise);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
