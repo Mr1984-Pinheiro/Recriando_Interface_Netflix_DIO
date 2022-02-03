@@ -15,9 +15,12 @@ header .container {
     justify-content: space-between ;
 }
 
+/*Elementos base*/
+
 body{
     background-color: var(--thistle);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 .Logo {
@@ -35,4 +38,29 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+
+/*Filme principal*/
+.filme-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa-voices.jpg);
+
+    height: 400px;
+    background-size: cover;
+    
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+    
+}
+
+.titulo {
+    font-size: 40px;
 }
